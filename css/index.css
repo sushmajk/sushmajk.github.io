@@ -42,6 +42,9 @@ body {
   .font-weight-normal{
     font-weight: normal;
   }
+  .stopParentScroll{
+    overflow: hidden;
+  }
 
  
 
