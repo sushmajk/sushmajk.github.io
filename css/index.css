@@ -1,0 +1,127 @@
+@import "home.css";
+@import "offerbanner.css";
+@import "header.css";
+@import "menubar.css";
+@import "hero-banner.css";
+@import "secondary-banner.css";
+@import "product-teaser.css";
+@import "feature-banner.css";
+@import "news-letter.css";
+
+
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Proxima Nova';
+  background-color: #E2E6E9;
+}
+
+.container {
+  max-width: 1560px;
+}
+.container-0-61{
+  padding: 0px 60px;
+}
+  .row {
+    margin: 16px 0;
+  }
+  .col {
+    min-height: 32px;
+  }
+  .col-32 {
+    min-height: 32px;
+  }
+  .position-absolute {
+    position: absolute;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .font-weight-normal{
+    font-weight: normal;
+  }
+
+ 
+
+  /* added today */
+  .btn-new {
+    display: flex;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 9px 12px 7px 11px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0px;
+    color: #354E57;
+    font-weight: bold;
+    background-color: #F7F7F7;
+    text-align: center;
+    cursor: pointer;
+  }
+  .btn-cape{
+    color: #A67744;
+  }
+   
+  .pos-absolute-mr-20{
+    position: absolute;
+      margin: 20px;
+  }
+
+  
+  @media screen and (max-width: 2560px) and (min-width: 992px) {
+  
+    .custom--desktop--hide {
+      display: none;
+  
+    }
+  }
+  
+  @media screen and (max-width: 1536px) and (min-width: 1280px) {
+    .container {
+        max-width: 1360px;
+    }
+    .row-margin-tpbt-ltrt-30-0{
+      margin: 29px 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1280px) and (min-width: 992px) {
+    .container {
+        max-width: 1140px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .custom--tablet--hide {
+      display: none;
+  
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+  }
+  @media screen and (max-width: 376px) {
+    .custom--phone--hide {
+      display: none;
+  
+    }
+  }
+  
