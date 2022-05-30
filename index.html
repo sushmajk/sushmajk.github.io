@@ -41,7 +41,8 @@
                         <div class="aem-GridColumn aem-GridColumn--phone--4">
                             <div class="header-menu">
 
-                                <a href="#menu-fade" class="icon">
+                                <!-- <a href="#menu-fade" class="icon"> -->
+                                  <a href="#menu-fade" class="icon" onclick="stopParentScroll()"> 
                                     <i class="fa fa-bars" style="color: #293D45; padding: 3px;"></i>
                                 </a>
                                 <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
@@ -80,7 +81,8 @@
             </div>
             <div class="menu menu--fade" id="menu-fade">
                 <div class="menu__content">
-                    <a href="#page" class="menu__close mobile-close"></a>
+                    <!-- <a href="#page" class="menu__close mobile-close"></a> -->
+                    <a href="#page" class="menu__close mobile-close" onclick="startParentScroll();"></a>
                     <a class="mobile-cart"><i class="fa fa-search"
                             style="color: #293D45;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Cart</a>
 
@@ -368,7 +370,25 @@
         </div>
 </footer> -->
 
+<script>
 
+  function stopParentScroll() {
+
+     var element = document.getElementById("page");
+
+     element.classList.add("stopParentScroll");
+
+  }
+
+  function startParentScroll() {
+
+     var element = document.getElementById("page");
+
+     element.classList.remove("stopParentScroll");
+
+  }
+
+  </script>
 </body>
 
 </html>
