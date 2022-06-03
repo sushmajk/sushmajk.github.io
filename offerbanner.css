@@ -1,0 +1,35 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.offerbanner-container {
+   padding: 10px 174px 10px 201px;
+
+}
+
+.banner {
+    background: #A67744;
+    width: 100%;
+  }
+  
+  .banner__content {
+    /* padding: 16px; */
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .banner__text {
+    flex-grow: 1;
+    line-height: 20px;
+    font-family: 'Proxima Nova';
+    color: #F7F5E6;
+    font-size: 16px;
+    letter-spacing: 0px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .offerbanner-container {
+      padding: 14px 13px 16px 14px;
+    }
+  }
+  
