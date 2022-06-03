@@ -1,24 +1,16 @@
 .news-letter {
     background: #FFFFFF;
-    /* border: 1px solid; */
     overflow-x: hidden;
 }
-
 .news-letter__content {
-
-    /* max-width: 1080px; */
-    /* margin: 0 auto; */
     display: flex;
 }
-
 .news-letter__text {
     flex-grow: 1;
     font-size: 28px;
     text-align: center;
     color: black;
-
 }
-
 .news-letter_title {
     font-size: 32px;
     text-align: left;
@@ -27,22 +19,16 @@
     color: #354E57;
     font-weight: bold;
     opacity: 1;
-    /* height: 78px; */
     margin: 15px;
-
-
 }
-
 .news-letter_info {
     font-size: 12px;
     color: #354E57;
     line-height: 15px;
     letter-spacing: 0px;
-
     text-decoration: underline;
     opacity: 1;
 }
-
 .news-letter_title-border {
     border-right: 2px solid #e7e0eb;
     height: 73px;
@@ -50,8 +36,6 @@
     margin-top: 35px;
     margin-bottom: 35px;
 }
-
-
 .news-letter-center {
     margin: 54px 0px 54px 40px;
     font-size: 22px;
@@ -59,13 +43,11 @@
     text-align: left;
     color: #345E57;
 }
-
 .news-letter-subscribe {
     margin: 57px 0px 51px 0px;
     width: 399px;
     float: right; 
 }
-
 .input-group {
     position: relative;
     display: flex;
@@ -75,8 +57,6 @@
     align-items: stretch;
     width: 100%;
 }
-
-
 .input-group>.form-control {
     position: relative;
     -ms-flex: 1 1 auto;
@@ -89,7 +69,6 @@
 .form-control {
     display: block;
     width: 100%;
-    /* height: calc(1.5em + 0.75rem + 2px); */
     padding: 0.375rem 0.75rem;
     font-size: 0.5rem;
     font-weight: 400;
@@ -98,7 +77,6 @@
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #956A53;
-    /* border-radius: 0.25rem; */
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
@@ -164,6 +142,9 @@ button {
         width: 81%;
         flex-direction: row-reverse;
     }
+    .row-reverse{
+        flex-direction: row-reverse !important;
+    }
 
 }
 
@@ -188,6 +169,9 @@ button {
     .news-letter__content {
         margin: 0px 13px;
     }
+    .row-reverse{
+        flex-direction: row-reverse !important;
+    }
 }
 @media screen and (max-width: 768px) {
     .news-letter_title-border {
@@ -209,6 +193,9 @@ button {
     }
     .news-letter__content {
         margin: 0px 13px;
+    }
+    .row-reverse{
+        flex-direction: row-reverse !important;
     }
 }
 
@@ -232,6 +219,9 @@ button {
     }
     .news-letter__content {
         margin: 0px 13px;
+    }
+    .row-reverse{
+        flex-direction: row-reverse !important;
     }
 }
 
@@ -257,5 +247,8 @@ button {
     }
     .news-letter__content {
         margin: 0px 13px;
+    }
+    .row-reverse{
+        flex-direction: row-reverse !important;
     }
 }

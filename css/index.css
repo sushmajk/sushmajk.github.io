@@ -5,10 +5,12 @@
 @import "hero-banner.css";
 @import "secondary-banner.css";
 @import "product-teaser.css";
+@import "prdteaser3.css";
 @import "feature-banner.css";
 @import "news-letter.css";
 @import "image-tiles.css";
 @import "green-teaser.css";
+@import "footer.css";
 
 
 
@@ -21,10 +23,23 @@ body {
 }
 
 .container {
-  max-width: 1560px;
+  max-width: 1280px;
 }
-.container-0-61{
-  padding: 0px 60px;
+.minheight {
+  min-height: 32px;
+}
+.position-absolute {
+  position: absolute;
+}
+.absposition{
+  position: absolute;
+    margin: 20px;
+} 
+.stopParentScroll{
+  overflow: hidden;
+}
+.hide {
+  display: none;
 }
   .row {
     margin: 16px 0;
@@ -32,26 +47,32 @@ body {
   .col {
     min-height: 32px;
   }
-  .col-32 {
-    min-height: 32px;
+  .col-240{
+    min-height: 240px;
   }
   .position-absolute {
     position: absolute;
   }
-  .uppercase {
-    text-transform: uppercase;
+  .paddingbottom {
+    padding-bottom: 125px;
   }
-  .font-weight-normal{
+  .container60{
+    padding: 0px 60px;
+  }
+  .brownbtn{
+    color: #A67744;
+  }
+  .normalfont{
     font-weight: normal;
   }
-  .stopParentScroll{
-    overflow: hidden;
-  }
 
- 
-
-  /* added today */
-  .btn-new {
+   .newbtn {
+    background-color: #F7F7F7;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0px;
+    color: #354E57;
+    font-weight: bold;
     display: flex;
     border: none;
     outline: 0;
@@ -59,31 +80,12 @@ body {
     padding: 9px 12px 7px 11px;
     font-size: 12px;
     line-height: 14px;
-    letter-spacing: 0px;
-    color: #354E57;
-    font-weight: bold;
-    background-color: #F7F7F7;
-    text-align: center;
-    cursor: pointer;
   }
-  .btn-cape{
-    color: #A67744;
-  }
-   
-  .pos-absolute-mr-20{
-    position: absolute;
-      margin: 20px;
-  }
-
-  
-  @media screen and (max-width: 2560px) and (min-width: 992px) {
-  
-    .custom--desktop--hide {
+  @media screen and (max-width: 1280px) and (min-width: 992px) {
+    .hideindesktop {
       display: none;
-  
     }
   }
-  
   @media screen and (max-width: 1536px) and (min-width: 1280px) {
     .container {
         max-width: 1360px;
@@ -92,41 +94,57 @@ body {
       margin: 29px 0;
     }
   }
-  
-  
   @media screen and (max-width: 1280px) and (min-width: 992px) {
     .container {
         max-width: 1140px;
     }
-    
   }
-  
   @media screen and (max-width: 992px) {
     .container {
         max-width: 960px;
     }
-    .custom--tablet--hide {
+    .hideintablet {
       display: none;
-  
     }
   }
-  
   @media screen and (max-width: 768px) {
     .container {
         max-width: 720px;
     }
-    
+    .reverse {
+      display: flex !important;
+      flex-direction: column-reverse;
+    }
+    .col-240 {
+      min-height: 440px;
   }
-  
+  }
   @media screen and (max-width: 576px) {
     .container {
         max-width: 540px;
     }
+    .reverse {
+      display: flex !important;
+      flex-direction: column-reverse;
+    }
+    .col-240 {
+      min-height: 340px;
   }
+  }
+  @media screen and (max-width: 426px){
+    .col-240 {
+        min-height: 280px;
+    }
+    }
   @media screen and (max-width: 376px) {
-    .custom--phone--hide {
+    .hideinphone {
       display: none;
-  
+    }
+    .reverse {
+      display: flex !important;
+      flex-direction: column-reverse;
     }
   }
+
+ 
   
