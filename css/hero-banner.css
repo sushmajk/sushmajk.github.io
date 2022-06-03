@@ -4,9 +4,9 @@
   display: block;
   width: 100%;
   height: 900px; 
-  margin-bottom: -126px;
+  margin-bottom: -215px;
   background-image:  url(../images/updated_Header@2x.png);
-  background-size:  1536px;
+  background-size: 1390px;
   background-position:  -10px 0px;
   background-repeat:  no-repeat;
   overflow: hidden;
@@ -25,14 +25,14 @@
 }
 .hero-banner-img{
   position: absolute;
-  top: 188px;
-  left: 686px;
+  top: 170px;
+  left: 605px;
   overflow: hidden;
 }
 .hero-banner-img img{
   position: relative;
   z-index: 1;
-  
+  width: 95%;  
 }
 .hero-banner-img::after{
   content: "";
@@ -96,7 +96,6 @@
       background-size:  1536px;
       background-position: -339px -60px;
       background-color: #E2E6E9;
-      
   }
   .hero-banner-img::before{
       top: 23px;
@@ -107,8 +106,10 @@
   .hero-banner-img{
       top: 182px;
       left: 416px;
-    
   }
+  .col-240 {
+    min-height: 0px !important;
+}
   .hero-banner-img img{
        width: 420px;
   }
@@ -118,16 +119,14 @@
       width: 205px;
       height: 205px;
   }
-
   .hero-banner__content {
-      padding: 93px 21px 0px 21px;
-      
+      padding: 93px 21px 0px 21px; 
   }
 }
 @media screen and (max-width: 768px) {
   .hero-banner {
      
-      height: 998px; 
+      height: 1035px; 
       background-image:  url(../images/updated_Header.png);
       background-size: 1080px;
       background-position: -305px 0px;
@@ -245,7 +244,7 @@
 @media screen and (max-width: 376px) {
   .hero-banner {
      
-      height: 900px; 
+      height: 950px; 
       background-image:  url(../images/updated_Header.png);
       background-size: 767px;
       background-position: -305px 0px;

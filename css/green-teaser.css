@@ -87,8 +87,9 @@
 
 .green-teaser-img img {
     position: relative;
-    bottom: 31%;
-    right: 7%;
+    width: 121%;
+    bottom: 0%;
+    right: 0%;
 }
 .pink-teaser-img img {
     position: relative;
@@ -134,8 +135,9 @@
        height: 940px;
     }
     .green-teaser-img img {
-        bottom: 42%;
-        right: 80%;
+        bottom: 26%;
+        right: 55%;
+        width: 228%;
     }
     .pink-teaser__content {
         padding: 77px 21px 93px 20px;
@@ -158,11 +160,15 @@
         padding: 128px 21px 93px 20px;
     }
     .green-teaser-img {
-       height: 940px;
-    }
-    .green-teaser-img img {
-        bottom: 42%;
-        right: 11%;
+        height: 563px;
+     }
+     .green-teaser-img img {
+         width: 125%;
+         bottom: 19%;
+         right: 0px;
+     }
+     .product-teaser-2-img-wrap {
+        height: 290px;
     }
     .pink-teaser__content {
         padding: 77px 21px 93px 20px;
@@ -185,11 +191,15 @@
         padding: 128px 21px 93px 20px;
     }
     .green-teaser-img {
-       height: 940px;
+       height: 563px;
     }
     .green-teaser-img img {
-        bottom: 42%;
-        right: 61%;
+        width: 125%;
+        bottom: 19%;
+        right: 0px;
+    }
+    .product-teaser-2-img-wrap {
+        height: 290px;
     }
     .pink-teaser__content {
         padding: 77px 21px 93px 20px;
@@ -209,11 +219,15 @@
         padding: 128px 21px 93px 20px;
     }
     .green-teaser-img {
-       height: 940px;
+       height: 563px;
     }
     .green-teaser-img img {
-        bottom: 42%;
-        right: 80%;
+        width: 125%;
+        bottom: 19%;
+        right: 0px;
+    }
+    .product-teaser-2-img-wrap {
+        height: 290px;
     }
     .pink-teaser__content {
         padding: 77px 21px 93px 20px;

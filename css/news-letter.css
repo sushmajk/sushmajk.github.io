@@ -152,7 +152,7 @@ button {
     .news-letter_title-border {
         border-right: none ;
         height: 0px;
-        margin: 71px 150px 0px 15px;
+        margin: -10px 100px 0px 15px;
     }
     .news-letter-center{
         margin: 0px 20px 0px 15px;
