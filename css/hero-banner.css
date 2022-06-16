@@ -181,8 +181,13 @@
   .hero-banner-img{
       top: 129px;
       left: 107px;  
-    
   }
+  .hero-banner-title {
+    margin: 259px 0px 164px 3px;
+  }
+  .hero-banner-titleinfo {
+    margin-top: -119px;
+   }
   .hero-banner-img img{
        width: 340px;
   }
@@ -221,8 +226,13 @@
   .hero-banner-img{
       top: 122px;
       left: 70px;
-    
   }
+  .hero-banner-title {
+    margin: 259px 0px 164px 3px;
+  }
+  .hero-banner-titleinfo {
+    margin-top: -119px;
+   }
   .hero-banner-img img{
        width: 289px;
   }
@@ -262,6 +272,12 @@
       left: 30px;
     
   }
+  .hero-banner-title {
+    margin: 259px 0px 125px 3px;
+  }
+  .hero-banner-titleinfo {
+    margin-top: -119px;
+   }
   .hero-banner-img img{
        width: 289px;
   }
