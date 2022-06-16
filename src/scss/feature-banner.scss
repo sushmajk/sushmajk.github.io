@@ -1,0 +1,42 @@
+.feature-banner {
+	background: #EEF3F4;
+	overflow-x: hidden;
+}
+.feature-banner_info {
+	font-size: 12px;
+	color: #354E57;
+	line-height: 15px;
+	letter-spacing: 0px;
+	text-decoration: underline;
+	opacity: 1;
+}
+.feature-banner__content {
+	padding: 56.5px 20px 60px 230px;
+	max-width: 1080px;
+	margin: 0 auto;
+	display: flex;
+}
+.feature-banner_title {
+	margin: 0px;
+	font-size: 16px;
+	color: #354E57;
+	line-height: 19px;
+	letter-spacing: 0px;
+	text-align: center;
+	height: 40px;
+}
+.feature-banner__text {
+	flex-grow: 1;
+	font-size: 28px;
+	text-align: center;
+	color: black;
+}
+.storestyle {
+	margin: 11px 30px 9px 30px;
+}
+.cartstyle {
+	margin: 11px 40px 5px 40px;
+}
+.mobilestyle {
+	margin: 11px 80px 5px 80px;
+}
