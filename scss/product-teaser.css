@@ -1,0 +1,241 @@
+.product-teaser__content {
+  display: contents;
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 75%;
+}
+
+.product-teaser__text {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-size: 28px;
+}
+
+.prdteaserpadding {
+  padding: 1px 8px 125px 106px;
+}
+
+.product-teaser-3-img-wrap {
+  width: 100%;
+  height: 270px;
+  background: white;
+}
+
+.product-teaser-2-img-wrap {
+  width: 105%;
+  height: 290px;
+  background: white;
+}
+
+.product-teaser-img {
+  width: 95%;
+  height: 100%;
+  -o-object-position: center bottom;
+     object-position: center bottom;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product-teaser-img:hover {
+  background-image: url(../images/img-tile-3.png);
+  background-repeat: no-repeat;
+}
+
+.product-teaser-2-img {
+  width: 100%;
+  height: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.product-teaser {
+  background: #EEF3F4;
+  overflow-x: hidden;
+}
+
+.prd-teaser-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fill-available;
+  border: 1px solid #354E57;
+  outline: 0;
+  display: inline-block;
+  padding: 11px 25px 10px 25px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0px;
+  color: #2E2E22;
+  font-weight: bold;
+  background-color: #EEF3F4;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.prd-teaser-btn:hover {
+  background-color: white;
+  min-width: 110%;
+}
+
+.shp-prd-btn {
+  margin-right: 86px;
+}
+
+.shp-cart-btn {
+  margin-right: 10px;
+}
+
+.prd-teaser-normal-paragraph {
+  letter-spacing: 0px;
+  color: #2E2E22;
+  opacity: 1;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+  text-align: left;
+  margin: 1px 0px 10px 0px;
+}
+
+.product-teaser-img-wrap {
+  width: 116%;
+  height: 300px;
+  background: white;
+}
+
+.prd-teaser-top-text {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #2E2E22;
+  opacity: 1;
+  margin: 1px 0px 5px 0px;
+}
+
+@media screen and (max-width: 1275px) {
+  .prdteaserpadding {
+    padding: 0px 12px 0px 20px;
+  }
+  .product-teaser-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .product-teaser-img-wrap {
+    height: 327px;
+  }
+  .prd-teaser-btn {
+    margin-bottom: 55px;
+    width: 387px;
+  }
+  .paddingbottom {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .prdteaserpadding {
+    padding: 0px 12px 0px 45px;
+  }
+  .product-teaser-img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .product-teaser-img-wrap {
+    width: 90%;
+    height: 327px;
+  }
+  .prd-teaser-btn {
+    margin-bottom: 55px;
+    width: 295px;
+  }
+  .paddingbottom {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .prdteaserpadding {
+    padding: 0px 16px 0px 64px;
+  }
+  .card {
+    width: 86%;
+  }
+  .product-teaser-img-wrap {
+    width: 100%;
+    height: 345px;
+  }
+  .product-teaser-img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .prd-teaser-btn {
+    margin-bottom: 55px;
+    width: 295px;
+  }
+  .paddingbottom {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .prdteaserpadding {
+    padding: 0px 0px 0px 20px;
+  }
+  .card {
+    width: 82%;
+  }
+  .product-teaser-img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .product-teaser-img-wrap {
+    height: 245px;
+    width: 100%;
+  }
+  .prd-teaser-btn {
+    margin-bottom: 55px;
+    width: 160px;
+  }
+  .paddingbottom {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .prdteaserpadding {
+    padding: 0px 0px 0px 20px;
+  }
+  .card {
+    width: 82%;
+  }
+  .product-teaser-img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .product-teaser-img-wrap {
+    width: 100%;
+    height: 225px;
+  }
+  .prd-teaser-btn {
+    margin-bottom: 55px;
+    width: 118px;
+  }
+  .prd-teaser-btn:hover > .hideinphone {
+    display: inherit;
+  }
+  .paddingbottom {
+    padding-bottom: 0px !important;
+  }
+}
+/*# sourceMappingURL=product-teaser.css.map */
